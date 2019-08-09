@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\IMKit\IMKit.iml" filepath="F:\lxn\laGit\sysfang\IMKit\IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\IMLib\IMLib.iml" filepath="F:\lxn\laGit\sysfang\IMLib\IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\app\app.iml" filepath="F:\lxn\laGit\sysfang\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barlibrary/barlibrary.iml" filepath="$PROJECT_DIR$/barlibrary/barlibrary.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\barlibrary\barlibrary.iml" filepath="F:\lxn\laGit\sysfang\barlibrary\barlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\library\library.iml" filepath="F:\lxn\laGit\sysfang\library\library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shapeloading/shapeloading.iml" filepath="$PROJECT_DIR$/shapeloading/shapeloading.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\shapeloading\shapeloading.iml" filepath="F:\lxn\laGit\sysfang\shapeloading\shapeloading.iml" />
+      <module fileurl="file://F:\lxn\laGit\sysfang\sysf.iml" filepath="F:\lxn\laGit\sysfang\sysf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sysfang.iml" filepath="$PROJECT_DIR$/sysfang.iml" />
+    </modules>
+  </component>
+</project>

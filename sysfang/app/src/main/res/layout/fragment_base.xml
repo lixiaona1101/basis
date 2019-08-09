@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/f_base_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mingle.widget.LoadingView
+        android:id="@+id/base_loadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        app:loadingText="加载中..." />
+</RelativeLayout>

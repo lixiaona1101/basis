@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/base_titleRl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@color/colorPrimaryDark">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/base_titleLeftImg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dp14"
+
+            android:src="@mipmap/ic_launcher" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/base_titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp20" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/base_titleRightTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/dp15"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp12"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/base_titleRl"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:id="@+id/base_contentRl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f4f4f4" />
+
+        <com.mingle.widget.LoadingView
+            android:id="@+id/base_loadView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            app:loadingText="加载中..." />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp270"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_confirm"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp5">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_marginTop="@dimen/dp10"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_marginTop="@dimen/dp5"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp14" />
+
+        <View style="@style/HorizontalLine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp44"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_confirm_cancle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="#4585f5"
+                android:textSize="@dimen/sp16" />
+
+            <View
+                android:id="@+id/line"
+                style="@style/VerticalLine" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_confirm_sure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="#fa3877"
+                android:textSize="@dimen/sp16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp10"
+    android:paddingLeft="@dimen/dp10"
+    android:paddingRight="@dimen/dp10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_white_10"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/p_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18" />
+
+        <View style="@style/HorizontalLine" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/p_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/p_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/round_white_10"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#ee6b6b6b"
+        android:textSize="@dimen/sp18" />
+
+</LinearLayout>
